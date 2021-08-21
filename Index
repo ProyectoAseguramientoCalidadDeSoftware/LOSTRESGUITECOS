@@ -8,6 +8,7 @@
     <meta name="author" content="Diego Velázquez">
     <meta name="description" content="Smart Agency is a one page responsive Bootstrap 4 template. This is a free open source theme, you can use our theme for any purpose, even commercially. Create amazing websites with this easy to customize template.">
 
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
@@ -21,16 +22,17 @@
     <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
 
     
-    <title>Smart Agency Template | Themes Bootstrap</title>
+    
+    <title>Los Guitecos</title>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
-            <img src="assets/images/edit--v3.png" class="logo-brand" alt="logo">
+            <img src="assets/images/images.jpg" class="logo-brand" alt="logo">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <img src="assets/images/menu.svg">
+                <img src="assets/images/list.svg">
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -59,158 +61,9 @@
                 <p> PRÓXIMAMENTE
                     Pasrticiparan en la serie: "MULTIVERSO"
                     .</p>
-                <a href="#" class="btn btn-secondary mt-4">Anuncio <img src="assets/images/arrow-right.svg" class="ml-2"></a>
+                <a href="https://youtu.be/2-d5-1vimAw" class="btn btn-secondary mt-4">Anuncio <img src="assets/images/iconmonstr-arrow-46.svg" class="ml-2"></a>
             </div>
         </duv>
-    </section>
-
-    <section id="portfolio">
-        <div class="container-fluid">
-            <div class="content-center">
-                <h2>Para poder descargar <b>debe tener una cuenta con nosotros.</b></h2>
-                <p>es facil, solo debe dirigirse al final de la pagina o </p>
-                <a class="nav-link" href="#contact">dar click aqui</a>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="portfolio-container">
-                        <div class="portfolio-details">
-                            <a href="#">
-                                <h2>PROXIMAMENTE</h2>
-                            </a>
-                            <a href="#">
-                                <p>— Suscribete para ser el primero en verlo</p>
-                            </a>
-                        </div>
-                        <img src="assets/images/portfolio-01.jpg" class="img-fluid" alt="Portfolio 01">
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="portfolio-container">
-                        <div class="portfolio-details">
-                            <a href="#">
-                                <h2></h2>
-                            </a>
-                            <a href="#">
-                                <p>—</p>
-                            </a>
-                        </div>
-                        <img src="assets/images/portfolio-02.jpg" class="img-fluid" alt="Portfolio 02">
-                    </div>
-                </div>
-            </div>
-            <div class="text-center mt-4">
-                <p class="">Solo aqui las mejores</p>
-                <a href="#" class="text-dark"><b>PELICULAS</b></a>
-            </div>
-        </div>
-    </section>
-
-    <section id="team" class="bgLightGrey">
-        <div class="container">
-            <div class="content-center">
-                <h2>LAS MEJORES PELICULAS <b>DE: </b></h2>
-                <p>SUSPENSO, ACCION, COMEDIA, DRAMA, MUSICALES, TERROR</p>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="member-container">
-                        <div class="member-details">
-                            <h5>IT</h5>
-                            <span>ES HORA DE JUGAR</span>
-                            <ul class="list-inline">
-                                <li class="list-inline-item"><a href="#"><img src="assets/images/instagram.svg" class="img-fluid"></a>
-                                </li>
-                                <li class="list-inline-item"><a href="#"><img src="assets/images/twitter.svg" class="img-fluid"></a></li>
-                                <li class="list-inline-item"><a href="#"><img src="assets/images/youtube.svg" class="img-fluid"></a></li>
-                                <li class="list-inline-item"><a href="#"><img src="assets/images/dribbble.svg" class="img-fluid"></a></li>
-                                <li class="list-inline-item"><a href="#"><img src="assets/images/facebook.svg" class="img-fluid"></a></li>
-                            </ul>
-                        </div>
-                        <img src="assets/images/member-01.jpg" class="img-fluid" alt="member 1">
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="member-container">
-                        <div class="member-details">
-                            <h5>FAMILIAR</h5>
-                            <span>PARA TODAS LAS EDADES</span>
-                            <ul class="list-inline">
-                                <li class="list-inline-item"><a href="#"><img src="assets/images/instagram.svg" class="img-fluid"></a>
-                                </li>
-                                <li class="list-inline-item"><a href="#"><img src="assets/images/twitter.svg" class="img-fluid"></a></li>
-                                <li class="list-inline-item"><a href="#"><img src="assets/images/youtube.svg" class="img-fluid"></a></li>
-                                <li class="list-inline-item"><a href="#"><img src="assets/images/dribbble.svg" class="img-fluid"></a></li>
-                                <li class="list-inline-item"><a href="#"><img src="assets/images/facebook.svg" class="img-fluid"></a></li>
-                            </ul>
-                        </div>
-                        <img src="assets/images/member-02.jpg" class="img-fluid" alt="member 2">
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="member-container">
-                        <div class="member-details">
-                            <h5>SALVATE</h5>
-                            <span>CORRE</span>
-                            <ul class="list-inline">
-                                <li class="list-inline-item"><a href="#"><img src="assets/images/instagram.svg" class="img-fluid"></a>
-                                </li>
-                                <li class="list-inline-item"><a href="#"><img src="assets/images/twitter.svg" class="img-fluid"></a></li>
-                                <li class="list-inline-item"><a href="#"><img src="assets/images/youtube.svg" class="img-fluid"></a></li>
-                                <li class="list-inline-item"><a href="#"><img src="assets/images/dribbble.svg" class="img-fluid"></a></li>
-                                <li class="list-inline-item"><a href="#"><img src="assets/images/facebook.svg" class="img-fluid"></a></li>
-                            </ul>
-                        </div>
-                        <img src="assets/images/member-03.jpg" class="img-fluid" alt="member 3">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="pricing" class="divider">
-        <div class="container">
-            <div class="content-center">
-                <h2>INGRESA <b>MIRALAS EN HD</b></h2>
-                <p>Hola a todos los usuarios, 
-                    aquí le trataremos de ayudar con todas 
-                    sus posibles dudas sobre el funcionamiento 
-                    de la web o los archivos que descargan. 
-                    Antes de contactarnos trata de resolver todas tus dudas en esta pagina</p>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="pricing-container">
-                        <div class="plans plan-light">
-                            <h4>15 DIAS ILIMITADO</h4>
-                            <h2>Q75 <span>PAGAS CON TARJETA</span></h2>
-                            <h4>TENDRAS ACCESO A:</h4>
-                            <ul class="mt-3">
-                                <li>A PELICULAS ESTRENADAS DEL 2019</li>
-                                <li>EN AUDIO ESPAÑOL</li>
-                                <li>SERIES</li>
-                                                            </ul>
-                            <a href="#" class="btn btn-primary full-width mt-4">INGRESA AHORA</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="pricing-container">
-                        <div class="plans plan-dark">
-                            <h4>ILIMITADO POR UN MES</h4>
-                            <h2>Q139 <span>PAGAS CON TARJETA</span></h2>
-                            <h4>TIENES ACCESO A: </h4>
-                            <ul class="mt-3">
-                                <li>A PELICULAS ESTRENADAS DEL 2019</li>
-                                <li>EN AUDIO ESPAÑOL</li>
-                                <li>SERIES</li>
-                            </ul>
-                            <a href="#" class="btn btn-alternate full-width mt-4">INGRESA AHORA</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </section>
 
 
@@ -218,7 +71,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 mt-4">
-                    <h3>LLENA EL SIGUIENTE FORMULARIO <b>PARA TENER MAS SERVICIOS.</b></h3>
+                    <h3>LLENA EL SIGUIENTE FORMULARIO <b>PARA INICIAR SESION.</b></h3>
                     <p>ACCEDE  Y OBTEN REGALOS CADA DIA
                         NO TE PIERDAS DE NUESTRAS OFERTAS
                     </p>
@@ -227,31 +80,16 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
-                                <input type="text" class="form-control" id="" placeholder="NOMBRE">
+                                <input type="text" class="form-control" id="" placeholder="USUARIO">
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <input type="text" class="form-control" id="" placeholder="APELLIDO">
+                                <input type="password" class="form-control" id="" placeholder="CONTRASEÑA">
                             </div>
                         </div>
                         <div class="col-md-12">
-                            <div class="form-group">
-                                <input type="email" class="form-control" id="" placeholder="CORREO ELECTRONICO">
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="" placeholder="CIUDAD">
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="form-group">
-                                <input type="number" class="form-control" id="" placeholder="NUMERO DE TELEFONO">
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <a href="" class="btn btn-primary full-width">REGISTRATE</a>
+                            <a href="home.php" class="btn btn-primary full-width">INICAR SESION</a>
                         </div>
                     </div>
                 </div>
