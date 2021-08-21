@@ -5,6 +5,18 @@
     Licensed under MIT (https://github.com/diegovr7/smart-agency/blob/master/LICENSE)
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+#banner {
+    width: 100%;
+    height: 100%;
+}
+
+#navbarSupportedContent{
+    width: 100%;
+    height: 100%;
+}
+
+
 :root {
     --dark-color: #1a1a1a;
     --white-color: #ffffff;
@@ -24,6 +36,14 @@ html {
 
 body {
     font-family: 'Titillium Web', sans-serif;
+}
+
+#menu-bar{
+    display: none;
+}
+
+header label{
+    float: rigth;
 }
 
 .bgDark { background-color: var(--dark-color); }
@@ -78,8 +98,8 @@ a:hover { text-decoration: none; }
 .btn-secondary:focus { background-color: var(--white-color) !important; outline: none; border: 2px solid var(--white-color) !important; box-shadow: none; }
 
 .logo-brand {
-    max-width: 180px;
-    min-width: 160px;
+    max-width: 100px;
+    min-width: 90px;
 }
 
 section { padding: 120px 0; }
@@ -118,7 +138,8 @@ section { padding: 120px 0; }
 .nav-link { color: var(--dark-color); }
 .nav-link:hover { color: var(--dark-color); }
 
-.navbar-toggler { font-size: 40px; }
+.navbar-toggler {
+        font-size: 100px; }
 .navbar-toggler:focus { outline: none; }
 
 /* //////////////
@@ -126,7 +147,7 @@ section { padding: 120px 0; }
 //////////////*/
 
 #hero {
-    background-image: url(../../assets/images/preview.jpg);
+    background-image: url(../../assets/images/fondo1.jpg);
     background-size: cover;
     padding-top: 90px;
     min-height: 700px;
@@ -186,7 +207,7 @@ section { padding: 120px 0; }
 
 .member-details {
     position: absolute;
-    color: var(--white-color);
+    color: var(black);
     bottom: 0;
     left: 20px;
 }
