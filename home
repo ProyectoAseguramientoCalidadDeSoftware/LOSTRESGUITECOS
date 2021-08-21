@@ -1,196 +1,270 @@
-<!doctype html>
+    <!DOCTYPE html>
+    <html>
+    <head>
 <html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta charset="utf-8">
 
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="author" content="Diego Velázquez">
-    <meta name="description" content="Smart Agency is a one page responsive Bootstrap 4 template. This is a free open source theme, you can use our theme for any purpose, even commercially. Create amazing websites with this easy to customize template.">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> 
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
-    <!-- Style -->
-    <link rel="stylesheet" href="assets/css/styles.css">
+  <link href="personal/metro-bootstrap.css" rel="stylesheet">
+    <link href="personal/metro-bootstrap-responsive.css" rel="stylesheet">
+    <link href="personal/iconFont.css" rel="stylesheet">
+    <link href="personal/docs.css" rel="stylesheet">
+    <link href="personal/prettify.css" rel="stylesheet">
 
-    <!-- Google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600" rel="stylesheet">
+    <script src="personal/jquery.min.js"></script>
+    <script src="personal/jquery.widget.min.js"></script>
+    <script src="personal/jquery.mousewheel.js"></script>
+    <script src="personal/prettify.js"></script>
+    <script src="personal/metro.min.js"></script>
 
-    <!-- Ionic icons-->
-    <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
+    <script src="personal/load-metro.js"></script>
+
+<style>
+ .catalogo{
+ height:450px;
+ width: 300px;
+ }
+ 
+</style>
+
+    </head>
+
+
+    <body class="metro">
+<div class="container">
+<div class="grid">
+	
+	    <div class="row" >
+		<div class="span2">
+		<img src="personal/3G.png" class="polaroid bd shadow ">
+		</div>
+
+		<div class="span10"><br>
+		    <nav class="navigation-bar">
+			    <nav class="navigation-bar-content">
+			    <a class="element" href="Index.html"> <span class="icon-rocket"></span> GUITECOS </a>
+			    <span class="element-divider"></span>
+			    <a class="element" href="Productos.html">Catálogo <span class="icon-sale"></span></a>
+			    <span class="element-divider"></span>
+			    <a class="element" href="Informacion.html">Información  <span class="icon-info"></span></a>
+			    <span class="element-divider"></span>
+			    <a class="element" href="3">Reservaciones <span class="icon-cart-2"></span></a>
+			    <span class="element-divider"></span>
+			    </nav>
+		    </nav>
+
+		</div>
+    	    </div>
 
     
-    <title>Los Guitecos</title>
-</head>
+<hr>
 
-<body>
+	    <div class="row">
+		<div class="span2">
+			<nav class="sidebar dark">
+			<ul>
+			<li class="active"><a href="#"><i class="icon-home"></i>Categorias</a></li>
+			<li class=""><a href="#"><i class="icon-tag"></i>Android</a></li>
+			<li class=""><a href="#ffffff"><i class="icon-tag"></i>IOS</a></li>
+			
+			</ul>
+			</nav>
+		</div>
+	
+	<div class="span10">
+			<div class="accordion with-marker" data-role="accordion">
+				<div class="accordion-frame active">
+				<a href="#" class="heading bg-lightblack fg-black">Dispositivos más cotizados</a>
+					<div class="content">
+							<div class="row">
+								<div class="span3">
+									<div class="carousel bg-lightblack fg-black">
+									<div class="slide bg-lightblack fg-black">
+									<img class="catalogo" src="personal/12ProMax.png"/>
+									</div>
+									 
+									<div class="slide">
+									<img class="catalogo" src="personal/12.jpg"/>
+									</div>
+									<a class="controls left"><i class="icon-undo"></i></a>
+									<a class="controls right"><i class="icon-redo"></i></a>
+									</div>
+									
+										<nav class="sidebar black">
+										<ul>
+										<li class="active"><a href="#"><i class="icon-key"></i>Dispositivo: Iphone 12 ProMax | S.O: IOS</a></li>
+										<li ><a href="#"><i class="icon-cart"></i>Precio del dispositivo: Q9800.00 </a></li>
+										
+										</ul>
+										</nav>
+								</div>
+								<div class="span3 ">
+									<div class="carousel bg-lightblack">
+									<div class="slide bg-lightblack">
+									<img class="catalogo" src="personal/Iphonexsx.jpg"/>
+									</div>
+									 
+									<div class="slide">
+									<img class="catalogo" src="personal/Iphone.png"/>
+									</div>
+									<a class="controls left"><i class="icon-undo"></i></a>
+									<a class="controls right"><i class="icon-redo"></i></a>
+									</div>
+									
+										<nav class="sidebar bg-lightblack">
+										<ul>
+										<li class="active"><a href="#"><i class="icon-key"></i>Dispositivo: Iphone xs | S.O: IOS</a></li>
+										<li ><a href="#fffff"><i class="icon-cart"></i>Precio del dispositivo: Q7500.00 </a></li>
+				
+										</ul>
+										</nav>
+								</div>
+								<div class="span3">
+									<div class="carousel">
+									<div class="slide">
+									<img class="catalogo" src="personal/Iphone7.png"/>
+									</div>
+									 
+									<div class="slide">
+									<img class="catalogo" src="personal/Iphone77.jpg"/>
+									</div>
+									<a class="controls left"><i class="icon-undo"></i></a>
+									<a class="controls right"><i class="icon-redo"></i></a>
+									</div>
+									
+										<nav class="sidebar li">
+										<ul>
+										<li class="active"><a href="#"><i class="icon-key"></i>Dispositivo: Iphone 7 PLUS | S.O: IOS</a></li>
+										<li ><a href="#"><i class="icon-cart"></i>Precio del dispositivo: Q4800.00 </a></li>
+										
+										</ul>
+										</nav>
+								</div>
+								
+							</div>
+							<hr>
+							<div class="row">
+								<div class="span3">
+									<div class="carousel bg-lightblack fg-black">
+									<div class="slide bg-lightblack fg-black">
+									<img class="catalogo" src="personal/galaxyS20.png"/>
+									</div>
+									 
+									<div class="slide">
+									<img class="catalogo" src="personal/Galaxy2S20.jpg"/>
+									</div>
+									<a class="controls left"><i class="icon-undo"></i></a>
+									<a class="controls right"><i class="icon-redo"></i></a>
+									</div>
+									
+										<nav class="sidebar light">
+										<ul>
+										<li class="active"><a href="#"><i class="icon-key"></i>Dispositivo: Samsung Galaxy S 20 | S.O: Android</a></li>
+										<li ><a href="#"><i class="icon-cart"></i>Precio del dispositivo: Q7800.00 </a></li>
+										
+										</ul>
+										</nav>
+								</div>
+								<div class="span3 ">
+									<div class="carousel bg-lightblack">
+									<div class="slide bg-lightblack">
+									<img class="catalogo" src="personal/S10 PLUS2.1.jpg"/>
+									</div>
+									 
+									<div class="slide">
+									<img class="catalogo" src="personal/S10 PLUS.jpg"/>
+									</div>
+									<a class="controls left"><i class="icon-undo"></i></a>
+									<a class="controls right"><i class="icon-redo"></i></a>
+									</div>
+									
+										<nav class="sidebar bg-lightblack">
+										<ul>
+										<li class="active"><a href="#"><i class="icon-key"></i>Dispositivo: Samsung Galaxy S 10 + | S.O: Android</a></li>
+										<li ><a href="#0000"><i class="icon-cart"></i>Precio del dispositivo: Q7560.00 </a></li>
+									
+										</ul>
+										</nav>
+								</div>
+								<div class="span3">
+									<div class="carousel">
+									<div class="slide">
+									<img class="catalogo" src="personal/S9.jpg"/>
+									</div>
+									 
+									<div class="slide">
+									<img class="catalogo" src="personal/S9.jpg"/>
+									</div>
+									<a class="controls left"><i class="icon-undo"></i></a>
+									<a class="controls right"><i class="icon-redo"></i></a>
+									</div>
+									
+										<nav class="sidebar light">
+										<ul>
+										<li class="active"><a href="#"><i class="icon-key"></i>Dispositivo: Samsung Galaxy S 9 | S.O: Android</a></li>
+										<li ><a href="#"><i class="icon-cart"></i>Precio del dispositivo: Q2000.00 </a></li>
+										
+										</ul>
+										</nav>
 
-<header>
-    <div class="contenedor">
-        <<h1 class= "icon-dog">YOMERENGUES</h1>
-        <input type="checkbox" id="menu-bar">
-        <label class="icon-menu" for="menu-bar"></label>
-        <nav class="menu">
-            <a class="nav-link" href="#team">INICIO</a>
-            <a class="nav-link" href="#portfolio">CONSULTAS</a>
-            <a class="nav-link" href="#pricing">OFERTAS</a>
-            <a class="nav-link" href="Index.html">CERRAR SESION</a>                        
-        </nav>
-    </div>
-</header>
+									</div>
+									
+							</div>
+					</div>
+				</div>
+			</div>			
 
-<nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container">
-            <img src="assets/images/images.jpg" class="logo-brand" alt="logo">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <img src="assets/images/list.svg">
-            </button>
-
-<header>
-    <div class="contenedor">
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-        <input type="checkbox" id="menu-bar">
-        <label class="icon-menu" for="menu-bar"></label>
-
-        <li class="nav-item">
-        <a class="nav-link" href="#team">INICIO</a>
-        </li>
-        
-        <li class="nav-item">
-        <a class="nav-link" href="#portfolio">CONSULTAS</a>
-        </li>
-
-        <li class="nav-item">
-        <a class="nav-link" href="#pricing">OFERTAS</a>
-        </li>
-
-        <li class="nav-item">
-        <a class="nav-link" href="Index.html">CERRAR SESION</a>                        
-        </li>
-
-        </ul>
-        </div>
-    </div>
-</header>
+		</div>
+    	    </div>
+			<div class="row ">
+				<div class="span6" > </div>
+				<div class="span6" >© GUITECOS Copyright Todos los derechos reservados 2021 </div>
+				</div>
 
 
-<input type="checkbox" id="menu-bar">
+</div>
+</div>
+<script>
+$('.carousel').carousel({
+auto: false,
+effect:"fade",
+//height:250,
+period: 1800,
+duration: 3300,
+markers: {
+type: "cycle",
+position:"top-right"
+}
+});
 
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#team">INICIO</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">CONSULTAS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#pricing">OFERTAS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Index.html">CERRAR SESION</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-</nav>
+
+$("img").on('click', function(){
+//var a='<div class="carousel">[0]</div>'.replace('[0]',$(this).children(".carousel").clone().text());
+var a=$(this).clone();
+
+	$.Dialog({
+	overlay: true,
+	shadow: true,
+	flat: false,
+	height:100,
+	width:100,
+	icon: '<span class=" icon-zoom-in"></span>',
+	title: 'Zoom',
+	padding: 10,
+	//content:a
+	onShow: function(_dialog){
+	var content = _dialog.children('.content');
+	content.append(a);	
+	 
+	}
+	});
+});
 
 
-    <section id="team" class="bgLightGrey">
-        <div class="container">
-            <div class="content-center">
-                <h2>LO MEJOR EN <b>TELEFONIA: </b></h2>
-                <p>SAMSUNG, XAOMI, LG, IPHONE Y MÁS</p>
-            </div>
-            <div class="row">
-        <div class="col-md-4">
-                    <div class="member-container">
-                        <div class="member-details">
-                            <h5>5 CAMARAS</h5>
-                            <span>8G DE RAM</span>
-                            
-                        </div>
-                        <img src="assets/images/img_bnn_galaxy_device.webp" class="img-fluid" alt="member 1">
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="member-container">
-                        <div class="member-details">
-                            <h5>LO MEJOR EN RESOLUCION</h5>
-                            <span>CON ACCESORIOS ORIGINALES</span>
-
-                        </div>
-                        <img src="assets/images/descargar.jpg" class="img-fluid" alt="member 2">
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="member-container">
-                        <div class="member-details">
-                            <h5>XIAOMI</h5>
-                            <span>NUEVAS EXPERIENCIAS</span>
-
-                        </div>
-                        <img src="assets/images/450_1000.jpg" class="img-fluid" alt="member 3">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="pricing" class="divider">
-        <div class="container">
-            <div class="content-center">
-                <h2>NUESTRAS <b>OFERTAS</b></h2>
-                <p>Hola a todos los usuarios, 
-                    aquí le trataremos las ofertas del mes
-            con las diferntes marcas
-                </p>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="pricing-container">
-                        <div class="plans plan-light">
-                            <h4>2 TELEFNOS SAMSUGN </h4>
-                            <h2>Q750 <span>PAGAS CON TARJETA</span></h2>
-                            <h4>TENDRAS ACCESO A:</h4>
-                            <ul class="mt-3">
-                                <li>LLAMDAS ILIMITADAS</li>
-                                <li>POR UN MES</li>
-                                <li>E INTERNET GRATIS</li>
-                                                            </ul>
-                            <a href="#" class="btn btn-primary full-width mt-4">COMPRAR AHORA</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="pricing-container">
-                        <div class="plans plan-dark">
-                            <h4>SALDO ILIMITADO POR UN MES</h4>
-                            <h2>Q139 <span>PAGAS CON TARJETA</span></h2>
-                            <h4>TIENES ACCESO A: </h4>
-                            <ul class="mt-3">
-                                <li>REDES ILIMITADAS</li>
-                                <li>YOTUBE GRATIS</li>
-                                <li>Y MÁS</li>
-                            </ul>
-                            <a href="#" class="btn btn-alternate full-width mt-4">COMPRAR AHORA</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="assets/js/jquery.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-</body>
-
-</html>
+</script>
+    </body>
+    </html>
