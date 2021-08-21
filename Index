@@ -8,6 +8,14 @@
     <meta name="author" content="Diego Velázquez">
     <meta name="description" content="Smart Agency is a one page responsive Bootstrap 4 template. This is a free open source theme, you can use our theme for any purpose, even commercially. Create amazing websites with this easy to customize template.">
 
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-auth.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script src="form.js"></script>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -22,19 +30,17 @@
     <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
 
     
-    
-    <title>Los Guitecos</title>
+    <title> 3H | PROYECTO </title>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
-            <img src="assets/images/images.jpg" class="logo-brand" alt="logo">
+            <img src="personal/3G.png" class="logo-brand" alt="logo">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <img src="assets/images/list.svg">
+                <img src="assets/images/edit--v3.png">
             </button>
-
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
@@ -52,26 +58,24 @@
                 </ul>
             </div>
         </div>
-    </nav>
-
+    </nav>    
     <section id="hero">
         <duv class="container">
             <div class="content-center">
-                <h1 class="mt-5">"LOS 3 GUITECOS"</h1>
+                <h1 class="mt-5">"LOS 3 HUITECOS"</h1>
                 <p> PRÓXIMAMENTE
-                    Pasrticiparan en la serie: "MULTIVERSO"
+                    Participaran en la serie: "MULTIVERSO"
                     .</p>
-                <a href="https://youtu.be/2-d5-1vimAw" class="btn btn-secondary mt-4">Anuncio <img src="assets/images/iconmonstr-arrow-46.svg" class="ml-2"></a>
+                <a href="#856987" class="btn btn-secondary mt-4">Anuncio <img src="assets/images/icono1.png" alt="Girl in a jacket" width="50" height="50" class="ml-2"></a>
             </div>
         </duv>
     </section>
-
-
+    
     <section id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 mt-4">
-                    <h3>LLENA EL SIGUIENTE FORMULARIO <b>PARA INICIAR SESION.</b></h3>
+                    <h3>LLENA EL SIGUIENTE FORMULARIO <b>PARA TENER MAS SERVICIOS.</b></h3>
                     <p>ACCEDE  Y OBTEN REGALOS CADA DIA
                         NO TE PIERDAS DE NUESTRAS OFERTAS
                     </p>
@@ -80,16 +84,17 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
-                                <input type="text" class="form-control" id="" placeholder="USUARIO">
+                                <input type="text" class="form-control" id="email" placeholder="USUARIO">
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <input type="password" class="form-control" id="" placeholder="CONTRASEÑA">
+                                <input type="password" class="form-control" id="password" placeholder="CONTRASEÑA">
                             </div>
                         </div>
+                        </div>
                         <div class="col-md-12">
-                            <a href="home.php" class="btn btn-primary full-width">INICAR SESION</a>
+                            <a href="" class="btn btn-primary full-width">INICIAR SESIÓN</a>
                         </div>
                     </div>
                 </div>
